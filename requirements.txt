@@ -1,0 +1,7 @@
+# Install an appropriate PyTorch 2.5.1 build for your CPU/CUDA platform first.
+# Validation environment: Python 3.11, torch 2.5.1+cu118 (CPU execution).
+torch==2.5.1
+transformers==4.56.0
+datasets==4.0.0
+accelerate==1.10.1
+pytest>=8,<10

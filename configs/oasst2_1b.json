@@ -1,0 +1,18 @@
+{
+  "model": "meta-llama/Llama-3.2-1B",
+  "steps": 1500,
+  "workers": 64,
+  "batch_size": 2,
+  "rank": 16,
+  "gamma": 0.1,
+  "evolution_rate": 50,
+  "switch_interval": 50,
+  "momentum": 0.9,
+  "lr": 0.001,
+  "lr_min": 1e-05,
+  "dtype": "bf16",
+  "max_length": 1024,
+  "eval_samples": 128,
+  "eval_every": 5,
+  "seed": 42
+}

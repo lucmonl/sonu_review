@@ -1,0 +1,14 @@
+{
+  "smoke": true,
+  "device": "cpu",
+  "dtype": "fp32",
+  "rank": 4,
+  "steps": 4,
+  "workers": 2,
+  "batch_size": 2,
+  "switch_interval": 2,
+  "gamma": 0.8,
+  "evolution_rate": 10.0,
+  "eval_samples": 4,
+  "eval_every": 2
+}
